@@ -109,7 +109,7 @@ const SignUp = () => {
                 type="submit"
                 className={
                   action === "SignUp"
-                    ? " bg-blue-600 p-2 px-4 rounded-2xl m-4 cursor-pointer hover:scale-95"
+                    ? " bg-blue-600 p-2 px-4 text-white rounded-2xl m-4 cursor-pointer hover:scale-95"
                     : " bg-gray-200 p-2 px-4 rounded-2xl m-4 cursor-pointer hover:scale-95"
                 }
                 onClick={() => {
@@ -123,7 +123,7 @@ const SignUp = () => {
               <div
                 className={
                   action === "LogIn"
-                    ? "  bg-blue-600 p-2 px-5 rounded-2xl m-4 cursor-pointer hover:scale-95"
+                    ? "  bg-blue-600 p-2 px-5 text-white rounded-2xl m-4 cursor-pointer hover:scale-95"
                     : "  bg-gray-200 p-2 px-5 rounded-2xl m-4 cursor-pointer hover:scale-95"
                 }
                 onClick={() => {

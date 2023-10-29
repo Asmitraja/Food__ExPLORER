@@ -1,5 +1,5 @@
 import Futter from "./Futter";
-
+import Hemshu from "./Hemshu";
 const Grocery = () => {
   return (
     <div>
@@ -19,6 +19,7 @@ const Grocery = () => {
         exclusive updates. </p><p className="text-green-400">Thank you for visiting, and we're excited to provide
         you with a top-tier grocery shopping experience! </p>
       </h1>
+      {/* <div><Hemshu/></div> */}
     <div className="mt-80">  <Futter/> </div>
     </div>
   );

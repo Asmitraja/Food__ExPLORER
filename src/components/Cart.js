@@ -116,7 +116,7 @@ const Cart = () => {
                         {item.card.info.name}
                       </span>
                       <p className="text-lg font-semibold text-green-500">
-                        -₹
+                        ₹
                         {item.card.info.price
                           ? item.card.info.price / 100
                           : item.card.info.defaultPrice / 100}

@@ -22,6 +22,7 @@
   "dependencies": {
     "@coreui/react": "^5.0.0-alpha.3",
     "@emailjs/browser": "^3.11.0",
+    "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^1.9.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

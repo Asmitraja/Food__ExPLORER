@@ -80,7 +80,7 @@ const Body = () => {
     // } else {
     //     url = "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544";
     // }
-    const data = await fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544" );
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544" );
 
     const json = await data.json();
     // console.log(json);

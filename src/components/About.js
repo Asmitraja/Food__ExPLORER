@@ -56,7 +56,7 @@ const About = ()=>{
           <AnimationText/>
           <p className="mt-2 text-lg font-">
 
-"Welcome to our world of web development! We are a passionate team of developers dedicated to crafting exceptional online experiences. With a blend of creativity and technical expertise, we bring your ideas to life. Our mission is to deliver user-friendly, innovative websites that leave a lasting impression. From custom solutions to responsive designs, we're here to elevate your online presence. Let's build something amazing together!" </p>
+"Welcome to our world of web development! We are a passionate team of developers dedicated to crafting exceptional online experiences. With a blend of creativity and technical expertise, we bring your ideas to life. Our mission is to deliver user-friendly, innovative websites that leave a lasting impression. From custom solutions to responsive designs, we're here to elevate your online presence. Let's build something amazing together! regards " </p>
       
         </div>
        </div>

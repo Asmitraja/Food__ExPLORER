@@ -71,18 +71,10 @@ const Body = () => {
     fetchData();
   }, []);
   // console.log("useEffect Called"); //Use effect will be called after the body component will be render
-  const fetchData = async () => {
-    //  let url;
-    
-    // // Add your condition here to decide which URL to use
-    // if (true) {
-    //     url = "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.7040592&lng=77.10249019999999&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-    // } else {
-    //     url = "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544";
-    // }
-    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544" );
-
-    const json = await data.json();
+   const fetchData = async () => {
+    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544")
+    const json = await data.json()
+    console.log(json)
     // console.log(json);
 
     //OPTIONAL CHAINING

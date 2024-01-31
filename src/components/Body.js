@@ -71,18 +71,16 @@ const Body = () => {
     fetchData();
   }, []);
   // console.log("useEffect Called"); //Use effect will be called after the body component will be render
-   const fetchData = async () => {
+  const fetchData = async () => {
     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4254486&lng=78.450544")
     const json = await data.json()
     console.log(json)
-    // console.log(json);
-
     //OPTIONAL CHAINING
     setlistofResturants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilteredResturants(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
 

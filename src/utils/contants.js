@@ -1,5 +1,4 @@
 //Its a Good Practice to keep all our API's in constrants files
-//Its a Good Practice to keep all our API's in constrants files
 export const CDN_URL = 
  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
 export const LOGO_URL= 
@@ -9,4 +8,4 @@ export const LOGO_URL=
 // export default CON_URL;
 // export default LOGO_URL; 
 // default export can not work for multiple export for this we have to export by named export
-export const MENU_URL = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.7040592&lng=77.10249019999999&restaurantId="
+export const MENU_URL =  "https://cors-anywhere.herokuapp.com/https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=17.406498&lng=78.47724389999999&restaurantId=24613&submitAction=ENTER"

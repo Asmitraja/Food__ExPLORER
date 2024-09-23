@@ -2,7 +2,7 @@ import ItemListMenu from "./ItemListMenu";
 import { clearCart } from "../utils/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { LOGO_URL } from "../utils/contants";
+import { CDN_URL, LOGO_URL } from "../utils/contants";
 import { useState } from "react";
 import { addItem } from "../utils/cartSlice";
 import { removeItem } from "../utils/cartSlice";
@@ -116,7 +116,7 @@ const Cart = () => {
                         {item.card.info.name}
                       </span>
                       <p className="text-lg font-semibold text-green-500">
-                        ₹
+                        -₹
                         {item.card.info.price
                           ? item.card.info.price / 100
                           : item.card.info.defaultPrice / 100}
@@ -148,7 +148,7 @@ const Cart = () => {
                         <img
                           className="rounded-lg shadow-md  ml-10"
                           src={
-                            "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/" +
+                            CDN_URL +
                             item.card.info.imageId
                           }
                         ></img>

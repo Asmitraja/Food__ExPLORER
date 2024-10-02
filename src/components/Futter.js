@@ -26,7 +26,7 @@ const Futter = ()=>{
                <div className="linkcontainer flex p-2"> 
                 <Link to="https://github.com/Asmitraja"  className="m-2 hover:scale-125" target="_blank"> <h1 className=" text-2xl  "> <FaGithub/> </h1> </Link>
                 <Link to="https://www.linkedin.com/in/asmit-dixit-7701b1224" className="m-2 hover:scale-125" target="_blank"> <h1 className=" text-2xl  "><FaLinkedinIn/></h1> </Link>
-                <Link to="https://www.instagram.com/rajadixit_2123/" className="m-2 hover:scale-125" target="_blank"> <h1 className="  text-2xl ">  <FaInstagram /> </h1> </Link>
+                <Link to="https://www.instagram.com/rajadixit_2306/" className="m-2 hover:scale-125" target="_blank"> <h1 className="  text-2xl ">  <FaInstagram /> </h1> </Link>
                 <Link to="" target="_blank" className="m-2  hover:scale-125"> <h1 className="  text-2xl ">  <FaFacebook /> </h1> </Link>
                 <Link to="" target="_blank" className="m-2  hover:scale-125"> <h1 className="  text-2xl ">  < FaTwitter/> </h1> </Link>
                  </div>
